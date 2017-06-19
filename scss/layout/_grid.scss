@@ -1,0 +1,21 @@
+.row {
+  margin: auto;
+  text-align: justify;
+  background-color: white;
+  border: 5px solid $primary-color;
+  padding: 5px;
+  padding-bottom: 3%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+  @media only screen and (max-width: 600px) {
+      margin: auto;
+      text-align: left;
+  }
+}
+
+
+.row1 {
+  @extend .row;
+  width: 100%;
+}

@@ -1,0 +1,21 @@
+/*-----FOOTER-----*/
+
+.footer {
+  text-align: center;
+  padding-top: 100px;
+  margin-top: 20px;
+}
+
+#copyright {
+  text-align: right;
+  padding-left: 5%;
+  @include simple;
+}
+
+// Links
+
+.footer-links {
+  margin-right: 3%;
+  margin-left: 3%;
+  @extend .header-links; /*---EXTEND---*/
+}

@@ -1,0 +1,18 @@
+/*--NAVBAR--*/
+
+.navbar {
+background-color: $transparent-background;
+border: 0px solid $transparent-background;
+padding-top: 50px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    @extend .header-links;
+}
+
+a {
+  @extend .header-links; /*---EXTEND---*/
+  font-family: 'Parisienne', cursive;
+  font-size: 34px;
+  @include transition( all 1s ); /*Bourbon Mixin*/
+}
